@@ -54,7 +54,7 @@ Set the baud rate and click "Start" to begin converting data from serial to MIDI
 - Improved error handling for missing ports and MIDI devices.
 
 
-## v0.3
-- Enhanced MIDI output support (added multiple outputs).
+## v0.3 (current)
+- Enhanced Serial input and MIDI output support (added multiple in&outs).
 - Improved user interface for better UX.
 
