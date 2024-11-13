@@ -36,7 +36,7 @@ python your_script_name.py
 
 ## Usage
 
-Open the application, select the serial ports and MIDI outputs.
+Open the application, and select the serial ports and MIDI outputs.
 
 Set the baud rate and click "Start" to begin converting data from serial to MIDI.
 
@@ -48,15 +48,16 @@ Set the baud rate and click "Start" to begin converting data from serial to MIDI
 ## v0.1
 - Initial release of the Serial to MIDI Bridge.
 - Added basic functionality for a fixed and hard-coded serial to MIDI conversion.
-- Implemented Tkinter GUI with port and MIDI selection.
+- Implemented basic Tkinter GUI to start and stop the conversion.
 
 ## v0.2
-- Fixed bug where selecting one serial port would not work.
-- Added feature to set the baud rate, as well as the MIDI bus to route.
+- Added the Serial Port, MIDI Bus and Baud Rate selection dropdown menu.
+- Added the function to scan serial ports and MIDI buses.
 - Improved error handling for missing ports and MIDI devices.
-
+- Improved Tkinter GUI.
 
 ## v0.3 (current)
-- Enhanced Serial input and MIDI output support (added multiple in&outs).
+- Enhanced Serial Input and MIDI output support, allowing multiple inputs to be routed to different outputs.
 - Improved user interface for better UX.
+- Resolved the issue that required both serial inputs to be selected before starting.
 
