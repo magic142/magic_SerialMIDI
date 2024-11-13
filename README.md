@@ -24,6 +24,8 @@ It uses Python and the `mido` library to send MIDI messages to a selected MIDI o
 
    git clone https://github.com/magic142/magic_SerialMIDI.git
 
+or download the file and open it
+
 2. Install the required dependencies:
 
 pip install mido pyserial
