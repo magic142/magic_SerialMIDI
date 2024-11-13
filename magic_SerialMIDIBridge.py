@@ -54,7 +54,7 @@ class MidiBridgeApp:
         self.baudrate_label = tk.Label(self.frame, text="Select Baud Rate:")
         self.baudrate_label.grid(row=2, column=0, padx=10)
         
-        # Dropdown for Baud Rate
+        # Dropdown for Baud Rate, Feel free to add the desired baud rate to the list
         self.baudrate_combobox = ttk.Combobox(self.frame, width=30, values=[9600, 19200, 38400, 57600, 115200, 31250])
         self.baudrate_combobox.grid(row=2, column=1, padx=10)
         self.baudrate_combobox.set(31250)  # Set default baud rate
