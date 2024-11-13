@@ -40,18 +40,18 @@ Set the baud rate and click "Start" to begin converting data from serial to MIDI
 
 ## Version History
 
-###v0.1
-Initial release of the Serial to MIDI Bridge.
-Added basic functionality for a fixed and hard-coded serial to MIDI conversion.
-Implemented Tkinter GUI with port and MIDI selection.
+   ##v0.1
+- Initial release of the Serial to MIDI Bridge.
+- Added basic functionality for a fixed and hard-coded serial to MIDI conversion.
+- Implemented Tkinter GUI with port and MIDI selection.
 
-###v0.2
-Fixed bug where selecting one serial port would not work.
-Added feature to set the baud rate, as well as the MIDI bus to route.
-Improved error handling for missing ports and MIDI devices.
+   ##v0.2
+- Fixed bug where selecting one serial port would not work.
+- Added feature to set the baud rate, as well as the MIDI bus to route.
+- Improved error handling for missing ports and MIDI devices.
 
 
-###v0.3
-Enhanced MIDI output support (added multiple outputs).
-Improved user interface for better UX.
+   ##v0.3
+- Enhanced MIDI output support (added multiple outputs).
+- Improved user interface for better UX.
 
