@@ -1,4 +1,4 @@
-# Serial to MIDI Bridge v0.3 by magic142
+# Serial to MIDI Bridge v0.4 by magic142
 
 This project is a Serial to MIDI Bridge application that converts serial port data into MIDI messages and can route two serial inputs to different MIDI buses simultaneously.
 It uses Python and the `mido` library to send MIDI messages to a selected MIDI output device. The application is controlled via a simple GUI built with Tkinter.
@@ -36,7 +36,7 @@ It uses Python and the `mido` library to send MIDI messages to a selected MIDI o
 
 Open the application, and select the serial ports and MIDI outputs.
 
-Set the baud rate and click "Start" to begin converting data from serial to MIDI.
+Set the baud rate and click "Start" to convert data from serial to MIDI.
 
 
 
@@ -54,8 +54,11 @@ Set the baud rate and click "Start" to begin converting data from serial to MIDI
 - Improved error handling for missing ports and MIDI devices.
 - Improved Tkinter GUI.
 
-## v0.3 (current)
-- Enhanced Serial Input and MIDI output support, allowing multiple inputs to be routed to different outputs.
+## v0.3
+- Enhanced serial input and MIDI output support allow multiple inputs to be routed to different outputs.
 - Improved user interface for better UX.
 - Resolved the issue that required both serial inputs to be selected before starting.
 
+## v0.4 (current)
+- Added one more input routing, now it can handle three different routings.
+- Improved user interface for better UX.
